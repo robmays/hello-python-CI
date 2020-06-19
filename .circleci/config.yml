@@ -8,7 +8,7 @@ jobs:
     working_directory: ~/environment/hello-python-CI
     
     steps:
-      - checkout:
+      - checkout
       
       - restore_cache:
           keys:
